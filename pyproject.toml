@@ -1,0 +1,18 @@
+[project]
+name = "yt-nlm-pipeline"
+version = "0.1.0"
+description = "YouTube → NotebookLM → Markdown knowledge pipeline"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.27",
+    "notebooklm-py>=0.1",
+    "aiosqlite>=0.20",
+    "python-dotenv>=1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
