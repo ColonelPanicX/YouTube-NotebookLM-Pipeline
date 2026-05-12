@@ -37,7 +37,7 @@ NotebookLM accepts YouTube URLs directly. It fetches transcripts, understands vi
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/yourname/yt-nlm-pipeline
+git clone https://github.com/ColonelPanicX/YouTube-NotebookLM-Pipeline
 cd yt-nlm-pipeline
 uv sync
 ```
